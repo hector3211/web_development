@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,900&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+body {
+  background-color: #e9dac1;
+  text-align: center;
+}
+.container-fluid {
+  padding: 0;
+}
+/* headings section */
+.big-heading {
+  font-size: 3rem;
+  padding-top: 1rem;
+}
+.small-heading {
+  font-size: 2rem;
+}
+/* navbar components */
+.navbar {
+  background-color: #fbf8f1;
+  padding: 1rem;
+}
+.navbar-brand,
+a,
+span {
+  color: #54bab9;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbarNav,
+ul,
+a {
+  padding: 0 0.5rem;
+  font-size: 1.2rem;
+  text-align: right;
+}
+
+/* container one */
+.container-one {
+  padding: 1rem 0.5rem 0 0.5rem;
+}
+
+/* media queries */
+@media (min-width: 960px) {
+  .info {
+    padding: 270px 0 0 100px;
+  }
+}
+
+/* btns */
+.container-one-btn {
+  margin: 5% 3% 5% 0;
+}
+.container-one-btn:hover {
+  background-color: #54bab9;
+}
+
+/* profile img */
+.profile-img {
+  width: 80%;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: #54bab9;
+  border-width: 10px;
+}
+
+/* features */
+.features {
+  padding: 60px;
+}
+.me-columns {
+  margin: 10px 0;
+}
+.card-body {
+  background-color: #fbf8f1;
+}
+
+/* footer */
+.footer {
+  background-color: #fbf8f1;
+}
+.social-icon {
+  margin: 5px 10px;
+}
+.social-icon:hover {
+}
+#footer p {
+  padding: 8px 0 5px 0;
+}
+.footer-btn {
+  background-color: #54bab9;
+}
+.footer-btn:hover {
+  background-color: #e9dac1;
+}
