@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,900&display=swap");
 
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   margin: 0;
+  box-sizing: border-box;
 }
 body {
   background-color: #e9dac1;
@@ -15,9 +16,11 @@ body {
 .big-heading {
   font-size: 3rem;
   padding-top: 1rem;
+  font-weight: 600;
 }
 .small-heading {
   font-size: 2rem;
+  font-weight: 300;
 }
 /* navbar components */
 .navbar {
@@ -29,7 +32,7 @@ a,
 span {
   color: #54bab9;
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: 400;
 }
 .navbarNav,
 ul,
@@ -71,9 +74,13 @@ a {
 /* features */
 .features {
   padding: 60px;
+  margin-top: 10%;
 }
 .me-columns {
   margin: 10px 0;
+}
+.card {
+  border: 2px solid #54bab9;
 }
 .card-body {
   background-color: #fbf8f1;
